@@ -12,6 +12,6 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 
   document.getElementById("formMsg").textContent = "Message sent! Thanks for connecting.";
 
-  // Reset form (you can also integrate Formspree or EmailJS to make it real)
+  // Reset form (you can also integrate Formspree or EmailJS to send real emails)
   this.reset();
 });
