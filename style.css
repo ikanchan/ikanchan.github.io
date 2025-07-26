@@ -1,6 +1,6 @@
-/* Smooth scroll for nav clicks */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 120px; /* Adjust for sticky header */
 }
 
 * {
